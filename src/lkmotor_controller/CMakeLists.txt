@@ -1,0 +1,6 @@
+include_directories(${PROJECT_SOURCE_DIR}/include/lkmotor_controller)
+add_library(motor_config STATIC ${CMAKE_CURRENT_SOURCE_DIR}/motor_config.cpp)
+add_library(utils STATIC ${CMAKE_CURRENT_SOURCE_DIR}/utils.cpp)
+add_library(lkmotor_controller STATIC ${CMAKE_CURRENT_SOURCE_DIR}/lkmotor_controller.cpp)
+# add_library(lkmotor_listener STATIC ${CMAKE_CURRENT_SOURCE_DIR}/lkmotor_listener.cpp)
+target_link_libraries(lkmotor_controller motor_config)

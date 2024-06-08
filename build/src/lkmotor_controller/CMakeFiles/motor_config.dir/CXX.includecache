@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lkmotor_controller/motor_config.hpp
+string
+-
+array
+-
+
+/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/src/lkmotor_controller/motor_config.cpp
+motor_config.hpp
+/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/src/lkmotor_controller/motor_config.hpp
+

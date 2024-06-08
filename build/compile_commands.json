@@ -1,0 +1,49 @@
+[
+{
+  "directory": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/build",
+  "command": "/usr/bin/c++   -I../include/lkmotor_controller -isystem /home/zsn/anaconda3/include  -g   -std=c++14 -o test/CMakeFiles/test_replay.dir/test_replay.cpp.o -c /home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/test/test_replay.cpp",
+  "file": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/test/test_replay.cpp"
+},
+
+{
+  "directory": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/build",
+  "command": "/usr/bin/c++   -I../include/lkmotor_controller -isystem /home/zsn/anaconda3/include  -g   -std=c++14 -o test/CMakeFiles/test_recorder.dir/test_recorder.cpp.o -c /home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/test/test_recorder.cpp",
+  "file": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/test/test_recorder.cpp"
+},
+
+{
+  "directory": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/build",
+  "command": "/usr/bin/c++   -I../include/lkmotor_controller  -g   -std=c++14 -o test/CMakeFiles/test_servo.dir/test_servo.cpp.o -c /home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/test/test_servo.cpp",
+  "file": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/test/test_servo.cpp"
+},
+
+{
+  "directory": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/build",
+  "command": "/usr/bin/c++   -I../include/lkmotor_controller  -g   -std=c++14 -o test/CMakeFiles/test_get_multi_encoder.dir/test_get_multi_encoder.cpp.o -c /home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/test/test_get_multi_encoder.cpp",
+  "file": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/test/test_get_multi_encoder.cpp"
+},
+
+{
+  "directory": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/build",
+  "command": "/usr/bin/c++   -I../include/lkmotor_controller  -g   -std=c++14 -o src/lkmotor_controller/CMakeFiles/lkmotor_controller.dir/lkmotor_controller.cpp.o -c /home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/src/lkmotor_controller/lkmotor_controller.cpp",
+  "file": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/src/lkmotor_controller/lkmotor_controller.cpp"
+},
+
+{
+  "directory": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/build",
+  "command": "/usr/bin/c++   -I../include/lkmotor_controller  -g   -std=c++14 -o src/lkmotor_controller/CMakeFiles/utils.dir/utils.cpp.o -c /home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/src/lkmotor_controller/utils.cpp",
+  "file": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/src/lkmotor_controller/utils.cpp"
+},
+
+{
+  "directory": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/build",
+  "command": "/usr/bin/c++   -I../include/lkmotor_controller  -g   -std=c++14 -o src/lkmotor_controller/CMakeFiles/motor_config.dir/motor_config.cpp.o -c /home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/src/lkmotor_controller/motor_config.cpp",
+  "file": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/src/lkmotor_controller/motor_config.cpp"
+},
+
+{
+  "directory": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/build",
+  "command": "/usr/bin/c++   -I../include/motor_controller -I../include/pcan -I../include/can_communicator  -g   -std=c++14 -o src/can_communicator/CMakeFiles/can_communicator.dir/can_communicator.cpp.o -c /home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/src/can_communicator/can_communicator.cpp",
+  "file": "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/src/can_communicator/can_communicator.cpp"
+}
+]

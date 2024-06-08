@@ -1,0 +1,182 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/lkmotor_controller",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/lkmotor_controller",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						7
+					]
+				},
+				{
+					"build" : "src/can_communicator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/can_communicator",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "lib_robot_arm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "can_communicator::@c8a6fbb435fa8a0792ef",
+					"jsonFile" : "target-can_communicator-Debug-92b2a5fa416f7c40dd82.json",
+					"name" : "can_communicator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lkmotor_controller::@535930e23b9bb1676929",
+					"jsonFile" : "target-lkmotor_controller-Debug-0e3399f140b6cf887f00.json",
+					"name" : "lkmotor_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "motor_config::@535930e23b9bb1676929",
+					"jsonFile" : "target-motor_config-Debug-035089ea54d5e6d30cd7.json",
+					"name" : "motor_config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_get_multi_encoder::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_get_multi_encoder-Debug-d69c1dd2f207cdc02745.json",
+					"name" : "test_get_multi_encoder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_recorder::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_recorder-Debug-2b9713decc7dabbd54ad.json",
+					"name" : "test_recorder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_replay::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_replay-Debug-48fd98b4bd2834280549.json",
+					"name" : "test_replay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_servo::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_servo-Debug-869df89102f634db7dcf.json",
+					"name" : "test_servo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "utils::@535930e23b9bb1676929",
+					"jsonFile" : "target-utils-Debug-cae22d2c56986d6fbef5.json",
+					"name" : "utils",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/build",
+		"source" : "/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

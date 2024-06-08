@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcan_communicator.a  CMakeFiles/can_communicator.dir/can_communicator.cpp.o
+/usr/bin/ranlib libcan_communicator.a

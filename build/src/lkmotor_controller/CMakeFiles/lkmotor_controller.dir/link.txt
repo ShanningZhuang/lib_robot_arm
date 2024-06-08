@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblkmotor_controller.a  CMakeFiles/lkmotor_controller.dir/lkmotor_controller.cpp.o
+/usr/bin/ranlib liblkmotor_controller.a

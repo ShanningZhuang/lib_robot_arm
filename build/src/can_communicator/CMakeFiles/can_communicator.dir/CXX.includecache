@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/can_communicator/can_communicator.hpp
+string
+-
+fcntl.h
+-
+iostream
+-
+vector
+-
+memory
+-
+libpcan.h
+../include/can_communicator/libpcan.h
+
+../include/pcan/libpcan.h
+pcan.h
+-
+
+/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/src/can_communicator/can_communicator.cpp
+unistd.h
+-
+can_communicator.hpp
+/home/zsn/SynologyDrive/drive_file/research/1_project/1_doing/robot_arm_design/lib_robot_arm/src/can_communicator/can_communicator.hpp
+
